@@ -15,21 +15,27 @@ export default function Service() {
                   Rent Car
                 </h2>
                 <p className="text-lg font-medium text-gray-900">
-                Menyediakan kendaraan untuk disewa dengan layanan terbaik. Kami memastikan kesediaan armada kendaraan yang prima dengan kondisi bersih dan terawat.
+                  Menyediakan kendaraan untuk disewa dengan layanan terbaik.
+                  Kami memastikan kesediaan armada kendaraan yang prima dengan
+                  kondisi bersih dan terawat.
                 </p>
-                <br/>
+                <br />
                 <p>
-                Banana88 Trans Banyuwangi didukung oleh supir yang sarat pengalaman serta ramah bagi pelanggan dengan biaya Rental Mobil yang relatif Murah,
-                sehingga dapat menjadi partner yang baik untuk memenuhi kebutuhan transportasi Anda.
-                Kami juga menyediakan kendaraan pengganti dalam kondisi tertentu untuk menjamin perjalanan Anda tetap aman dan nyaman.  
+                  Banana88 Trans Banyuwangi didukung oleh supir yang sarat
+                  pengalaman serta ramah bagi pelanggan dengan biaya Rental
+                  Mobil yang relatif Murah, sehingga dapat menjadi partner yang
+                  baik untuk memenuhi kebutuhan transportasi Anda. Kami juga
+                  menyediakan kendaraan pengganti dalam kondisi tertentu untuk
+                  menjamin perjalanan Anda tetap aman dan nyaman.
                 </p>
                 <hr className="w-48 my-8 h-1 mx-auto border-0 rounded bg-gray-700" />
               </div>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-4">
-            {products.map((item) => (
+            {products.map((item, idx) => (
               <ProductCard
+                key={idx}
                 image={item.image}
                 title={item.title}
                 price={item.price}
