@@ -59,7 +59,7 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src="/bedugul.JPG"
+              src="/bedugul.jpg"
               width={300}
               height={300}
             />
