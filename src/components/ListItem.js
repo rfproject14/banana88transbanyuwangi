@@ -13,7 +13,7 @@ export default function ListItem({ text }) {
       ) : (
         // If text is not "Tiket Wisata" or "Parkir", render the check circle icon in red
         <>
-          <HiCheckCircle className="mr-2.5 w-6 h-6 text-green-900" />
+          <HiCheckCircle className="mr-2.5 w-6 h-6 text-green-800" />
           {text}
         </>
       )}
