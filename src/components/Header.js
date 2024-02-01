@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="my-24 w-full grid-cols-1 justify-center md:flex md:gap-5 lg:grid lg:grid-cols-2 px-12">
         <div className="col-span-1 flex flex-col justify-center text-center md:w-3/5 lg:w-full lg:justify-center lg:text-left text-[#24252a]">
-          <h1 className="mt-4 mb-8 text-3xl font-extrabold leading-tight lg:text-4xl">
+          <h1 className="mt-4 mb-8 text-3xl font-extrabold leading-tight lg:text-3xl">
             Buat perjalananmu jadi lebih mudah dengan Banana88 Trans Banyuwangi
           </h1>
           <p className="mb-8 mx-3 lg:mx-0 text-sm font-medium lg:text-base">
