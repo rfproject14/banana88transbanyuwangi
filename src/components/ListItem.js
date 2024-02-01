@@ -7,7 +7,7 @@ export default function ListItem({ text }) {
       {text === "Tiket Wisata" || text === "Parkir" ? (
         // If text is "Tiket Wisata" or "Parkir", render the X circle icon in green
         <>
-          <HiXCircle className="mr-2.5 w-6 h-6 text-gray-900" />
+          <HiXCircle className="mr-2.5 w-6 h-6 text-red-900" />
           {text}
         </>
       ) : (
