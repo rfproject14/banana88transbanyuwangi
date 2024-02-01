@@ -59,6 +59,14 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
+              src="/bedugul.JPG"
+              width={300}
+              height={300}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full rounded-lg"
               src="/ijen2.jpg"
               width={300}
               height={300}
@@ -110,6 +118,14 @@ export default function Gallery() {
             <Image
               className="h-auto max-w-full rounded-lg"
               src="/camp.jpg"
+              width={300}
+              height={300}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full rounded-lg"
+              src="/tnap.jpg"
               width={300}
               height={300}
             />
