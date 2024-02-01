@@ -30,7 +30,7 @@ const products = [
     price: 'Rp 3.800.000 /Day',
   },
   {
-    image: '/medium.jpg',
+    image: '/medium bus.jpg',
     title: 'Medium Bus 30 Seat',
     price: 'Rp 3.000.000 /Day',
   },
