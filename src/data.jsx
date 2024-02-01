@@ -20,6 +20,11 @@ const products = [
     price: 'Rp 2.000.000 /Day',
   },
   {
+    image: '/troper.jpg',
+    title: 'Troper/Jeep',
+    price: 'Rp 2.000.000 /Day',
+  },
+  {
     image: '/alphard.jpg',
     title: 'Alphard',
     price: 'Rp 3.800.000 /Day',
