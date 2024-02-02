@@ -6,7 +6,7 @@ export default function ProductCard({ image, title, price, details, href }) {
   const message =
     `Halo Banana88 Trans,\nSaya ingin Reservasi Mobil\nDi Banana 88 Trans\nJenis Mobil : ${title} \nPeriode pemakaian : ` +
     '\nMulai DD/MM/YYYY Jam : \nSampai DD/MM/YYYY Jam : \nRute Perjalanan : Dalam Kota/ Luar kota ' +
-    '\nNama Pemesan : \nAlamat :  \nTitik jemput : ';
+    '\nNama Pemesan : \nAlamat :  \nTitik jemput : \nAlamat Tujuan : ';
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(
     message
   )}`;
