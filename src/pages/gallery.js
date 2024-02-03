@@ -17,7 +17,7 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src="/asset1.png"
+              src="/asset4.png"
               width={300}
               height={300}
             />
@@ -25,7 +25,7 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src="/asset4.png"
+              src="/asset1.png"
               width={300}
               height={300}
             />
@@ -67,7 +67,7 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src="/ijen2.jpg"
+              src="/ijen.jpg"
               width={300}
               height={300}
             />
@@ -75,7 +75,7 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src="/ijen.jpg"
+              src="/ijen2.jpg"
               width={300}
               height={300}
             />
