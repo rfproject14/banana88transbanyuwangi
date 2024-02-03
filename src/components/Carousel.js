@@ -5,19 +5,22 @@ import { RxDotFilled } from "react-icons/rx";
 const Carousel = () => {
   const slides = [
     {
-      url: "/foto1.jpg",
+      url: "/foto4.jpg",
     },
     {
       url: "/foto5.jpg",
     },
     {
-      url: "/foto4.jpg",
+      url: "/ijen.jpg",
     },
     {
       url: "/bromo.jpg",
     },
     {
-      url: "/ijen.jpg",
+      url: "/foto1.jpg",
+    },
+    {
+      url: "/pm.jpg",
     },
   ];
 

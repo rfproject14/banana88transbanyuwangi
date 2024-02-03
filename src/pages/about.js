@@ -36,5 +36,6 @@ export default function Abouts() {
           </div>
       </div>
     </section>
+
     )
   }
