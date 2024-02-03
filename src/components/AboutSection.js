@@ -15,15 +15,7 @@ const AboutSection = () => {
     <section className="overflow-hidden p-12 bg-white" id="about">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-between -mx-4">
-
-        <link>
-    <image>
-        {/* <!-- Informasi gambar dapat ditambahkan di sini --> */}
-        <url>URL_GAMBAR_ANDA</url>
-        <caption>Caption gambar Anda</caption>
-        {/* <!-- Tambahan informasi lainnya jika diperlukan --> */}
-    </image>
-</link>
+          
           <motion.div
             variants={variantsTop}
             initial="hidden"
