@@ -117,6 +117,14 @@ export default function Gallery() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
+              src="/terakota.jpg"
+              width={300}
+              height={300}
+            />
+          </div>
+          <div>
+            <Image
+              className="h-auto max-w-full rounded-lg"
               src="/camp.jpg"
               width={300}
               height={300}
@@ -132,6 +140,14 @@ export default function Gallery() {
           </div>
         </div>
         <div className="grid gap-4">
+        <div>
+            <Image
+              className="h-auto max-w-full rounded-lg"
+              src="/ijen3.jpg"
+              width={300}
+              height={300}
+            />
+          </div>
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
