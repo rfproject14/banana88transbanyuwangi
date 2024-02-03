@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 const AboutSection = () => {
   const variantsTop = {
@@ -24,17 +25,16 @@ const AboutSection = () => {
           >
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className="py-3 sm:py-4">
+                <Link className="py-3 sm:py-4" href='/jasa'>
                   <Image
-                    href="/jasa"
                     src="/rentcar.jpg"
                     alt="Travel"
                     className="w-full rounded-2xl"
                     width={300}
                     height={600}
                   />
-                </div>
-                <div className="py-3 sm:py-4">
+                </Link>
+                <Link className="py-3 sm:py-4" href='/jasa'>
                   <Image
                     src="/paket wisata.jpg"
                     alt="Travel"
@@ -42,10 +42,10 @@ const AboutSection = () => {
                     width={300}
                     height={600}
                   />
-                </div>
+                </Link>
               </div>
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className="my-4">
+                <Link className="my-4" href='/jasa'>
                   <Image
                     src="/oxygen.jpg"
                     alt="Travel"
@@ -53,7 +53,7 @@ const AboutSection = () => {
                     width={300}
                     height={600}
                   />
-                </div>
+                </Link>
               </div>
             </div>
           </motion.div>

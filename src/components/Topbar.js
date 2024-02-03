@@ -13,10 +13,10 @@ import Image from "next/image";
 export default function TopBar() {
   const navigation = [
     { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
     { name: "Rent Car", href: "/service" },
     { name: "Pelayanan", href: "/jasa" },
     { name: "Gallery", href: "/gallery" },
-    // { name: "About", href: "/about" },
     {name: "Contact", href: "/contact"}
   ];
 

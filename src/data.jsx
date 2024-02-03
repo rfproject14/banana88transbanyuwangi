@@ -27,7 +27,7 @@ const products = [
   {
     image: '/alphard.jpg',
     title: 'Alphard',
-    price: 'Rp 3.800.000 /Day',
+    price: 'Rp 4.000.000 /Day',
   },
   {
     image: '/medium bus.jpg',
