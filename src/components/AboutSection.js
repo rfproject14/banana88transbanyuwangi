@@ -15,6 +15,15 @@ const AboutSection = () => {
     <section className="overflow-hidden p-12 bg-white" id="about">
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center justify-between -mx-4">
+
+        <link>
+    <image>
+        {/* <!-- Informasi gambar dapat ditambahkan di sini --> */}
+        <url>URL_GAMBAR_ANDA</url>
+        <caption>Caption gambar Anda</caption>
+        {/* <!-- Tambahan informasi lainnya jika diperlukan --> */}
+    </image>
+</link>
           <motion.div
             variants={variantsTop}
             initial="hidden"
@@ -35,7 +44,6 @@ const AboutSection = () => {
                 </div>
                 <div className="py-3 sm:py-4">
                   <Image
-                    href="/jasa"
                     src="/paket wisata.jpg"
                     alt="Travel"
                     className="w-full rounded-2xl"
@@ -47,7 +55,6 @@ const AboutSection = () => {
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className="my-4">
                   <Image
-                    href="/jasa"
                     src="/oxygen.jpg"
                     alt="Travel"
                     className="w-full rounded-2xl"
