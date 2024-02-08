@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -14,11 +14,11 @@ const Header = () => {
             dan Layanan Terbaik Bersama Banana88 Trans, &amp; Mitra Terpercaya
             Anda dalam Menjelajahi Dunia.
           </p>
-          <div className="flex flex-col items-center lg:items-start gap-4">
+          <Link className="flex flex-col items-center lg:items-start gap-4" href="/jasa">
             <button className="flex items-center rounded-xl bg-yellow-400 px-5 py-4 tracking-tight uppercase text-sm font-bold text-[#24252a] transition hover:bg-yellow-500 focus:bg-yellow-600">
               Get started now
             </button>
-          </div>
+          </Link>
         </div>
         <div className="col-span-1 hidden items-center justify-end lg:flex">
           <Image
