@@ -17,7 +17,7 @@ const products = [
   {
     image: '/fortuner.png',
     title: 'Fortuner',
-    price: 'Rp 2.000.000 /Day',
+    price: 'Rp 1.800.000 /Day',
   },
   {
     image: '/troper.jpg',
@@ -27,12 +27,12 @@ const products = [
   {
     image: '/alphard.jpg',
     title: 'Alphard',
-    price: 'Rp 4.000.000 /Day',
+    price: 'Rp 3.500.000 /Day',
   },
   {
     image: '/medium bus.jpg',
     title: 'Medium Bus 30 Seat',
-    price: 'Rp 3.000.000 /Day',
+    price: 'Rp 2.500.000 /Day',
   },
   {
     image: '/big bus.jpg',

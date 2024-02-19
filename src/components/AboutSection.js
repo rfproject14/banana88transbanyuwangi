@@ -25,7 +25,7 @@ const AboutSection = () => {
           >
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <Link className="py-3 sm:py-4" href='/jasa'>
+                <Link className="py-3 sm:py-4" href='/service'>
                   <Image
                     src="/rentcar.jpg"
                     alt="Travel"
@@ -34,7 +34,7 @@ const AboutSection = () => {
                     height={600}
                   />
                 </Link>
-                <Link className="py-3 sm:py-4" href='/jasa'>
+                <Link className="py-3 sm:py-4" href='/service'>
                   <Image
                     src="/paket wisata.jpg"
                     alt="Travel"
@@ -45,7 +45,7 @@ const AboutSection = () => {
                 </Link>
               </div>
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <Link className="my-4" href='/jasa'>
+                <Link className="my-4" href='/service'>
                   <Image
                     src="/oxygen.jpg"
                     alt="Travel"
