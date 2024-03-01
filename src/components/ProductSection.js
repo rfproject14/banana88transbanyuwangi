@@ -9,6 +9,11 @@ export default function ProductSection() {
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
 
+  const handleLearnMoreClick = (event) => {
+    event.preventDefault();
+    window.open('/service', '_blank');
+  };
+
   return (
     <motion.div
       variants={variants}
@@ -39,6 +44,7 @@ export default function ProductSection() {
                 menjamin perjalanan Anda tetap aman dan nyaman.
               </p>
               <hr className="w-48 my-8 h-1 mx-auto border-0 rounded bg-gray-700" />
+              
             </div>
           </div>
         </div>
@@ -108,6 +114,17 @@ export default function ProductSection() {
             }
           />
         </div>
+        <div className="mt-4 text-center">
+                <a
+                  href="/service"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleLearnMoreClick}
+                  className="mt-8 inline-block rounded-lg bg-yellow-400 py-3 px-8 text-center font-semibold text-gray-900 hover:bg-opacity-90"
+                >
+                  Selengkapnya
+                </a>
+              </div>
       </div>
     </motion.div>
   );
