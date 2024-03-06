@@ -18,13 +18,13 @@ export default function TopBar() {
     { name: "Contact", href: "/contact" },
   ];
 
-  const languages = [
-    { name: "English", code: "en" },
-    { name: "Bahasa Indonesia", code: "id" },
-  ];
+  // const languages = [
+  //   { name: "English", code: "en" },
+  //   { name: "Bahasa Indonesia", code: "id" },
+  // ];
 
-  const [openNav, setOpenNav] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState("en");
+  // const [openNav, setOpenNav] = useState(false);
+  // const [selectedLanguage, setSelectedLanguage] = useState("en");
 
   useEffect(() => {
     window.addEventListener(
