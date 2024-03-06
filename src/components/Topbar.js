@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function TopBar() {
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Rent Car", href: "/servic" },
+    { name: "Rent Car", href: "/service" },
     { name: "Gallery", href: "/gallery" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
